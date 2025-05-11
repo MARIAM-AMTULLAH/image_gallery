@@ -1,0 +1,30 @@
+#container{ 
+    display: grid; 
+    grid-template-columns: 180px 180px 180px; 
+    column-gap: 15px; 
+    row-gap: 10px; 
+    margin: 10px; 
+    justify-content: center; 
+    align-items: center; 
+ 
+} 
+#container div{ 
+    border: 6px solid black; 
+    padding: 5px; 
+    
+ 
+} 
+img{ 
+    width: 100%; 
+    height: 250px; 
+} 
+h1{ 
+    text-align: center; 
+    background-color: black;
+    color: burlywood;
+} 
+body{ 
+     background-image: url('background.jpg');
+  
+  width: 100%;
+} 
